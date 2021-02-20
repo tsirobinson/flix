@@ -16,13 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="JMt-ou-gZO">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="JMt-ou-gZO">
                                 <rect key="frame" x="138" y="379" width="138" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JMt-ou-gZO" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="2Gv-HG-CBn"/>
+                            <constraint firstItem="JMt-ou-gZO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="335" id="qsW-bo-oJp"/>
+                            <constraint firstItem="JMt-ou-gZO" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uAF-u3-vrE"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
